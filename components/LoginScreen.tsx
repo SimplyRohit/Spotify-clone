@@ -7,7 +7,7 @@ import google from "../assets/images/google.png";
 import facebook from "../assets/images/facebook.png";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { router } from "expo-router";
-export default function LoginScreen(props) {
+export default function LoginScreen(props: any) {
   return (
     <SafeAreaView
       style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
@@ -164,7 +164,7 @@ export default function LoginScreen(props) {
       </TouchableOpacity>
 
       <TouchableOpacity
-        onPress={() => router.push("/(tabs)/home")}
+        onPress={() => router.push("/home")}
         style={{
           marginTop: 5,
           justifyContent: "center",

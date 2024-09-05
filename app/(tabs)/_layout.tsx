@@ -1,3 +1,4 @@
+// src/app/(tabs)/_layout.tsx
 import { Tabs } from "expo-router";
 import { BlurView } from "expo-blur";
 import Ionicons from "@expo/vector-icons/Ionicons";
